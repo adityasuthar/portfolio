@@ -10,7 +10,7 @@ const projects = [
     description: 'This project is a YouTube transcript summarizer built with a modern tech stack. The frontend, powered by React, offers an intuitive user interface for submitting YouTube video links. On the backend, Django manages the application logic and interacts with SQLite for efficient data storage. The core summarization functionality is driven by Google GenAI, leveraging its advanced capabilities to condense lengthy video transcripts into concise summaries.',
     technologies: ['django', 'React', 'SQLite', 'python', 'Google GenAi'],
     github: 'https://github.com/adityasuthar/youtube-transcript-summarizer',
-    live: 'https://adityasuthar.github.io',
+    live: 'https://yt-summarizer.codewithaditya.com/',
     image: '/projects/YTsummarizer-logo.png',
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     technologies: ['Django', 'Django REST', 'Python', 'SQLite'],
     github: 'https://github.com/adityasuthar/polls-api',
     image: '/projects/polls-api-logo.jpg',
-    live: 'https://adityasuthar.pythonanywhere.com/polls/',
+    live: 'https://polls-api.codewithaditya.com/',
   },
 ];
 
