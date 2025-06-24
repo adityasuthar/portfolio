@@ -4,14 +4,14 @@ A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Fra
 
 ## Features
 
-- 🎨 Modern and clean design with dark theme
-- 📱 Fully responsive layout
-- ✨ Smooth animations and transitions
-- 📊 Interactive skill bars
-- 🎯 Project showcase with filtering
-- 📝 Contact form
-- 🔍 SEO optimized
-- ⚡ Fast performance
+-  Modern and clean design with dark theme
+-  Fully responsive layout
+-  Smooth animations and transitions
+-  Interactive skill bars
+-  Project showcase with filtering
+-  Contact form
+-  SEO optimized
+-  Fast performance
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/adityasuthar/portfolio.git
 cd portfolio
 ```
 
