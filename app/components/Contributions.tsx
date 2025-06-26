@@ -6,20 +6,20 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const contributions = [
   {
-    title: 'GCompris (KDE)',
-    description: "The Target activity is designed to help children practice precision and coordination skills by aiming and hitting a target. It was enhanced by adding a validation button for input values. Previously, the activity considered typed values as final results. I have implemented a feature that requires the user to click an `OK` button after entering the input. This prevents multiple submissions and ensures accurate evaluation.",
-    technologies: ['C++', 'Qt', 'KDE'],
-    github: 'https://invent.kde.org/education/gcompris/-/merge_requests/121',
-    pr: 'https://phabricator.kde.org/T15418',
-    image: '/projects/gcompris-logo.png',
-  },
-  {
     title: 'Wikimedia Projects',
     description: "Lingua Libre, an initiative by Wikimedia France, is a collaborative platform for building a free, multilingual audio library that helps preserve languages, particularly those that are underrepresented. In doing so, I delved into a very young codebase and an active project with partial documentation, contributing a few features while positively connecting with the developers and the lead coordinator. I utilized Wikimedia's Phabricator and GitLab, and I further familiarized myself with open-source culture.",
     technologies: ['Python', 'Django', 'MediaWiki'],
     github: 'https://gitlab.wikimedia.org/repos/wikimedia-france/lingua-libre/lingua-libre/-/merge_requests/?sort=created_date&state=all&author_username=adityasuthar20&first_page_size=20',
     pr: 'https://phabricator.wikimedia.org/T354550',
     image: '/projects/Lingualibre-logo.png',
+  },
+  {
+    title: 'GCompris (KDE)',
+    description: "The Target activity is designed to help children practice precision and coordination skills by aiming and hitting a target. It was enhanced by adding a validation button for input values. Previously, the activity considered typed values as final results. I have implemented a feature that requires the user to click an `OK` button after entering the input. This prevents multiple submissions and ensures accurate evaluation.",
+    technologies: ['C++', 'Qt', 'KDE'],
+    github: 'https://invent.kde.org/education/gcompris/-/merge_requests/121',
+    pr: 'https://phabricator.kde.org/T15418',
+    image: '/projects/gcompris-logo.png',
   },
   {
     title: 'PVNet (OpenClimateFix)',

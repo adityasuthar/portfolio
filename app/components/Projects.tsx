@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: 'Contacts App',
-    description: 'his is a straightforward Contacts Management Application built using the Django web framework. It provides essential features for efficiently adding, editing, and managing your contacts. The user interface is crafted with standard web technologies, HTML and CSS, ensuring a clear and functional experience.',
+    description: 'This is a straightforward Contacts Management Application built using the Django web framework. It provides essential features for efficiently adding, editing, and managing your contacts. The user interface is crafted with standard web technologies, HTML and CSS, ensuring a clear and functional experience.',
     technologies: ['Django', 'Python', 'HTML', 'CSS', 'SQLite'],
     github: 'https://github.com/adityasuthar/contacts-app',
     image: '/projects/contacts-app-logo.png',
