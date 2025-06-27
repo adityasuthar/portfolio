@@ -15,6 +15,7 @@ const navItems = [
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState('home');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -75,6 +76,7 @@ export default function Navbar() {
               type="button"
               className="text-text-secondary hover:text-text-primary"
               aria-label="Toggle menu"
+              onClick={() => setMenuOpen(!menuOpen)}
             >
               <svg
                 className="h-6 w-6"
@@ -93,6 +95,26 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      {menuOpen && (
+        <div className="md:hidden absolute top-16 left-0 w-full bg-primary/90 backdrop-blur-md shadow-lg z-50">
+          <div className="flex flex-col items-center space-y-4 py-4">
+            {navItems.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={`px-3 py-2 rounded-md text-base font-medium transition-colors ${
+                  activeSection === item.href.substring(1)
+                    ? 'text-accent'
+                    : 'text-text-secondary hover:text-text-primary'
+                }`}
+                onClick={() => setMenuOpen(false)}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </motion.nav>
   );
 } 

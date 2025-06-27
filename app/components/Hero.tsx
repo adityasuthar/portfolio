@@ -24,8 +24,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h2 className="text-2xl sm:text-3xl text-text-secondary mb-8">
-              Full Stack Developer
+            <h2 className="text-2xl sm:text-1xl text-text-secondary mb-8">
+            Backend developer with experience in building web apps using 
+            Python and Django. Solid grasp of DSA. Wikimedia & KDE Open-source contributor. Familiar with pandas, PyTorch, and LLM.
             </h2>
           </motion.div>
 
@@ -66,12 +67,26 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            <a
-              href="#contact"
-              className="inline-block bg-accent text-white px-8 py-3 rounded-full font-medium hover:bg-blue-600 transition-colors"
-            >
-              Get in Touch
-            </a>
+            <div className="flex justify-center space-x-4">
+              <a
+                href="#projects"
+                className="inline-block bg-accent text-white px-8 py-3 rounded-full font-medium hover:bg-blue-600 transition-colors"
+              >
+                Projects
+              </a>
+              <a
+                href="#about"
+                className="inline-block bg-accent text-white px-8 py-3 rounded-full font-medium hover:bg-blue-600 transition-colors"
+              >
+                About
+              </a>
+              <a
+                href="#contributions"
+                className="inline-block bg-accent text-white px-8 py-3 rounded-full font-medium hover:bg-blue-600 transition-colors"
+              >
+                Contributions
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>
